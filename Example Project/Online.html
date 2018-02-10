@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var londoneye = {lat: 51.5033, lng: -0.1195};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: londoneye
+        });
+        var marker = new google.maps.Marker({
+          position: londoneye,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzBUAF2t0zz3MLNfeyr-9Nc7Z79eJCenY&callback=initMap">
+    </script>
+  </body>
+</html>
