@@ -143,15 +143,15 @@ html {
 }
 
  /*NORTH SOUTH EAST WEST (change images)*/
-.north{
-  background-image: url('https://codebar.io/assets/logo-7345316d16a39b0a5cda277d2cf4cbf3aed1031b9288c0696b8273771ee1fb20.png');
+.dog{
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/d/d2/Dogs_Trust.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.clojure{
-  background-image: url('https://res.cloudinary.com/skillsmatter/image/upload/c_crop,g_custom/v1479490586/rtpoar7dqsimgoybxjem.png');
+.acton{
+  background-image: url('http://actonhomelessconcern.org/css/logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
